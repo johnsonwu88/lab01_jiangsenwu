@@ -10,7 +10,7 @@ int main(){
     cout.precision(3);
 
     do{
-      cout << "Enter the value of the parameter 'n' in the Leibniz formula(or -1 to quit):" << endl;
+      cout << "Enter the value of the parameter 'n' in the Leibniz formula (or -1 to quit):" << endl;
       cin >> n;
       if(n==0){
 	cout << "The approximate value of pi using 1 term is: 4.000" << endl;
